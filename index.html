@@ -1,75 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elite Connection Hub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELITE CONNECTION HUB | BLUE BLOOD</title>
+    <style>
+        :root { 
+            --neon-blue: #00d4ff; 
+            --bg-deep: #050505; 
+            --glass: rgba(255, 255, 255, 0.05); 
+        }
 
-  <meta property="og:title" content="Elite Connection Hub">
-  <meta property="og:description" content="Welcome to my elite connection hub">
-  <meta property="og:image" content="https://pakboysnew-stack.github.io/grok_image_1772010130664.jpg">
-  
-  <style>
-    /* Global Styles */
-    body {
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      text-align: center;
-      background-color: #0a0a0a;
-      color: #ffffff;
-      margin: 0;
-      padding: 20px;
-    }
+        body { 
+            background-color: var(--bg-deep); 
+            color: white; 
+            font-family: 'Segoe UI', Tahoma, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh; 
+            margin: 0; 
+            padding: 20px;
+        }
 
-    /* Container for the Hub */
-    .social-hub {
-      max-width: 500px;
-      margin: 0 auto;
-      border: 1px solid #333;
-      padding: 20px;
-      border-radius: 15px;
-      background-color: #1a1a1a;
-    }
+        .hub-container { 
+            background: var(--glass); 
+            backdrop-filter: blur(15px); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            padding: 2.5rem; 
+            border-radius: 20px; 
+            width: 100%; 
+            max-width: 400px; 
+            text-align: center; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+        }
 
-    /* Links Styling */
-    .social-links {
-      list-style-type: none;
-      padding: 0;
-    }
+        h2 { 
+            margin: 0.5rem 0; 
+            letter-spacing: 3px; 
+            color: var(--neon-blue); 
+            font-size: 1.5rem;
+        }
 
-    .social-links li {
-      margin: 10px 0;
-    }
+        .sub { 
+            color: #888; 
+            font-size: 0.9rem; 
+            margin-bottom: 2rem; 
+            text-transform: uppercase;
+        }
 
-    .social-links a {
-      color: #00d4ff;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
+        .btn { 
+            display: block; 
+            width: 100%; 
+            padding: 14px; 
+            margin: 10px 0; 
+            background: rgba(0, 0, 0, 0.3); 
+            border: 1px solid var(--neon-blue); 
+            color: var(--neon-blue); 
+            text-decoration: none; 
+            border-radius: 10px; 
+            transition: all 0.3s ease; 
+            font-weight: bold;
+            box-sizing: border-box;
+        }
 
-    .social-links a:hover {
-      text-decoration: underline;
-    }
+        .btn:hover { 
+            background: var(--neon-blue); 
+            color: black; 
+            cursor: pointer;
+            transform: scale(1.02);
+        }
 
-    /* Image Styling */
-    img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-  </style>
+        .status-tag { 
+            font-size: 0.7rem; 
+            margin-top: 25px; 
+            color: #555; 
+            text-transform: uppercase; 
+            letter-spacing: 1.5px; 
+        }
+    </style>
 </head>
-
 <body>
-  <section class="social-hub">
-    <h2>ELITE CONNECTION HUB 👑</h2>
-    <p>BLUE BLOOD ERA | face_lock_100</p>
-    <img src="grok_image_1772010130664.jpg" alt="Profile Image">
-    <ul class="social-links">
-      <li><a href="https://youtube.com/@Globally-pak-boys" target="_blank">YouTube</a></li>
-      <li><a href="https://tiktok.com/@globalboyspk" target="_blank">TikTok</a></li>
-    </ul>
-  </section>
-</body>
 
+<div class="hub-container">
+    <h2>🔱 ELITE HUB 🔱</h2>
+    <p class="sub">BLUE BLOOD ERA | face_lock_100</p>
+
+    <a href="https://youtube.com/@Globally-pak-boys" class="btn" target="_blank">YOUTUBE</a>
+    <a href="https://tiktok.com/@globalboyspk" class="btn" target="_blank">TIKTOK</a>
+    <a href="https://www.instagram.com/alakanchokragan" class="btn" target="_blank">INSTAGRAM</a>
+    <a href="https://www.threads.com/@alakanchokragan" class="btn" target="_blank">THREADS</a>
+    <a href="https://x.com/Globalpakboys" class="btn" target="_blank">X (TWITTER)</a>
+    <a href="https://facebook.com/GloballyPakBoys" class="btn" target="_blank">FACEBOOK</a>
+
+    <div class="status-tag">KPK 1% MOVEMENT | STATUS: UNLOCKED 💎</div>
+</div>
+
+</body>
 </html>
